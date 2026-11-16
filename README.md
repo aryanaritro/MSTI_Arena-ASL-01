@@ -19,7 +19,17 @@ This project implements an ESP32-based IoT telemetry node that reads analog sens
 
 A potentiometer is used as an analog sensor simulator. The ESP32 reads its output, displays the ADC values through the Serial Monitor, and sends telemetry data approximately every three seconds.
 
-## 2. Features
+
+## 2. Circuit Diagram
+
+![Wokwi Circuit Diagram](docs/images/wokwi-circuit.png)
+
+*ESP32 DevKit V1 with potentiometer and status LED.*
+
+**Simulation:** [Open the Wokwi Project](https://wokwi.com/projects/479247402232513537)
+
+
+## 3. Features
 
 - ESP32 DevKit V1
 - 12-bit ADC resolution (0–4095)
@@ -31,7 +41,7 @@ A potentiometer is used as an analog sensor simulator. The ESP32 reads its outpu
 - Serial Monitor output for sensor readings and HTTP responses
 - Wokwi circuit simulation
 
-## 3. System Architecture
+## 4. System Architecture
 
 ```text
        Potentiometer
@@ -57,13 +67,6 @@ A potentiometer is used as an analog sensor simulator. The ESP32 reads its outpu
 
 The status LED is independently controlled through ESP32 GPIO hardware registers using GPIO2.
 
-## 4. Circuit Diagram
-
-![Wokwi Circuit Diagram](docs/images/wokwi-circuit.png)
-
-*ESP32 DevKit V1 with potentiometer and status LED.*
-
-**Simulation:** [Open the Wokwi Project](https://wokwi.com/projects/479247402232513537)
 
 ## 5. Hardware Configuration
 
