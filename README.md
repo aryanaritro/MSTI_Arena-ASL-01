@@ -1,17 +1,6 @@
-# MSTI Arena Challenge 01 — IoT Telemetry Node
+# MSTIA Challenge 01 — IoT Telemetry Node
 
 An ESP32-based IoT telemetry node developed for the **ALPHA SCIENCE LAB (ASL) National Arena — Challenge 01**.
-
-<p align="center">
-  <a href="https://wokwi.com/projects/479247402232513537">
-    <img src="https://img.shields.io/badge/Simulate-Wokwi-blue?style=for-the-badge&logo=arduino" alt="Run Wokwi Simulation">
-  </a>
-  <img src="https://img.shields.io/badge/Platform-ESP32-red?style=for-the-badge" alt="ESP32">
-  <img src="https://img.shields.io/badge/Framework-Arduino-00979D?style=for-the-badge&logo=arduino" alt="Arduino Framework">
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License">
-</p>
-
----
 
 ## 1. Overview
 
